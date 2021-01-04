@@ -1,0 +1,27 @@
+<div class="navbar-fixed">
+  <nav class="black">
+    <div class="nav-wrapper container">
+      <a href="/" class="brand-logo">
+        <div class="left"><img src="img/fishpole.png" height="54" class="siteIcon"></div>
+        <div class="right hide-on-med-and-down titleText">ready</div>
+      </a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="map"><i class="material-icons">map</i></a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<ul class="sidenav" id="mobile-demo">
+  <li class="black white-text" style="height: 64px;">
+    <img src="img/fishpole.png" height="54" class="siteIcon" style="padding-left: 65px;">
+    <span class="mobileTitleText">ready</span>
+  </li>
+  <li style="padding-top: 10px;"><a href="/"><i class="material-icons">home</i> Home</a></li>  
+  <li style="padding-top: 10px;"><a href="map"><i class="material-icons">map</i> Fishing Map</a></li>  
+</ul>
+<script>
+  // Side Nav Init
+  let _sidenaveelem = document.querySelector('.sidenav');
+  let sidenaveinstance = M.Sidenav.init(_sidenaveelem, null);
+</script>
