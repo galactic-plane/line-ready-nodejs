@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.6850" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2021-05-22T16:36:31" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="sampleFunctionalTests" timestamp="2021-05-22T16:36:31" tests="1" file="D:\home-repo\line-ready-nodejs\tests\functional_tests\functionalTests.js" time="0.6850" failures="1">
+    <testcase name="sampleFunctionalTests &quot;before all&quot; hook for &quot;Assert page title&quot;" time="0.6850" classname="&quot;before all&quot; hook for &quot;Assert page title&quot;">
+      <failure message="session not created: This version of ChromeDriver only supports Chrome version 86
+Current browser version is 90.0.4430.212 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" type="SessionNotCreatedError"><![CDATA[SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 86
+Current browser version is 90.0.4430.212 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (node_modules\selenium-webdriver\lib\error.js:517:15)
+    at parseHttpResponse (node_modules\selenium-webdriver\lib\http.js:642:13)
+    at Executor.execute (node_modules\selenium-webdriver\lib\http.js:568:28)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

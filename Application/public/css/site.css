@@ -1,0 +1,129 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+html,
+body,
+.block {
+  height: 100%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+footer {
+  padding-left: 0;
+}
+
+.titleText {
+  padding-left: 5px;
+}
+
+.mobileTitleText {
+  font-size: 30px;font-weight: 400;
+}
+
+.clearIcon {
+  padding-top: 25px;
+}
+
+.locationName {
+  padding-left: 50px;
+}
+
+.siteIcon {
+  padding-top: 4px;
+}
+
+#myChart {
+  height: 200px;
+  width: auto;
+}
+
+#nullSchool {
+  border: 0px;
+  width: 100%;
+  height: 650px;
+  overflow: hidden
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.card-panel {
+  border-radius: 10px;
+}
+
+.credits {
+  font-size: 11px;
+}
+
+.select-dropdown {
+  overflow-y: auto !important;
+}
+
+.dropdown-content {
+  max-height: 350px;
+}
+
+.display {
+  display: none;
+}
+
+td {
+  padding: 5px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal.bottom-sheet {
+  width: 100%;
+  height: 750px;
+  min-height: 60%;
+  min-width: 100%;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus+label,
+.materialize-textarea:focus:not([readonly])+label {
+  color: #ffffff !important;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus,
+.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #0288D1 !important;
+  box-shadow: 0 1px 0 0 #0288D1 !important;
+}
+
+.searchContainer {
+  height: auto;
+  width: 100%;
+  position: absolute;
+  top: 25%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+@media screen and (min-width: 1350px) {
+  .searchContainer {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+}
+
+@media screen and (max-height: 850px) {
+  .searchContainer {
+    top: 80px;
+  }
+}
