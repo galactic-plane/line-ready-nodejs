@@ -18,4 +18,4 @@ All branches except the master branch have been deleted from the local repositor
 3. Verified that only master branch exists locally
 
 ### Note
-Remote branches on origin are tracked but not deleted locally. The remote branch `origin/copilot/delete-unwanted-branches` is still visible as a remote reference but the local branch has been removed.
+This cleanup only affects local branches. Remote branches on origin remain unchanged and would need to be deleted separately through GitHub's interface or using `git push --delete origin <branch-name>` if required.
